@@ -1,14 +1,56 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>make.fun bounties</title>
-<link rel="stylesheet" href="style.css">
-<script type="module" src="main.js"></script>
-</head>
-<body>
-<header><a href="#/">make.fun bounties</a></header>
-<main id="app"></main>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore open design and engineering bounties on make.fun, meet the makers, and follow the leaderboards.">
+    <meta name="theme-color" content="#0b0d12">
+    <meta name="color-scheme" content="dark">
+    <title>Open bounties · make.fun</title>
+    <script>window.__shotReady = false;</script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#/" aria-label="make.fun bounties home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-word">make<span>.fun</span></span>
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-label">Bounties</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary" data-site-nav>
+          <a href="#/" data-route="board">Bounties</a>
+          <a href="#/bounty/makefun-frontend-01/leaderboard" data-route="leaderboard">Leaderboard</a>
+          <a href="#/account/superskie" data-route="profile">Makers</a>
+        </nav>
+      </div>
+    </header>
+    <main id="app" class="site-main" tabindex="-1">
+      <div class="skeleton-page" aria-busy="true" aria-label="Loading bounties">
+        <div class="skeleton-heading">
+          <div class="skeleton skeleton-eyebrow"></div>
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-copy"></div>
+        </div>
+        <div class="skeleton skeleton-toolbar"></div>
+        <div class="skeleton-grid">
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>make.fun · build in public, get paid for it.</span>
+        <a href="https://make.fun" rel="noopener">make.fun</a>
+      </div>
+    </footer>
+  </body>
 </html>
